@@ -1,0 +1,85 @@
+sudoku package
+==============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   sudoku.migrations
+
+Submodules
+----------
+
+sudoku.admin module
+-------------------
+
+.. automodule:: sudoku.admin
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.apps module
+------------------
+
+.. automodule:: sudoku.apps
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.models module
+--------------------
+
+.. automodule:: sudoku.models
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.serializers module
+-------------------------
+
+.. automodule:: sudoku.serializers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.sudoku module
+--------------------
+
+.. automodule:: sudoku.sudoku
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.tests module
+-------------------
+
+.. automodule:: sudoku.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.urls module
+------------------
+
+.. automodule:: sudoku.urls
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.views module
+-------------------
+
+.. automodule:: sudoku.views
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: sudoku
+   :members:
+   :undoc-members:
+   :show-inheritance:

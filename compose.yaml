@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  backend:
+    image: registry.doit.wisc.edu/cdis/cs/courses/cs506/sp2024/team/mondaywednesdaylecture/t_10/logicluminaries/backend:latest
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    stdin_open: true
+    restart: always
+    volumes:
+      - ./backend:/app/api/
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+
+  frontend:
+    image: registry.doit.wisc.edu/cdis/cs/courses/cs506/sp2024/team/mondaywednesdaylecture/t_10/logicluminaries/frontend:latest
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    restart: always
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:

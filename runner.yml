@@ -1,0 +1,14 @@
+services:
+  gitlab-runner:
+    build:
+      context: .
+      dockerfile: runner.dockerfile
+    restart: always
+    volumes:
+      - config:/etc/gitlab-runner
+      - ./:/app
+      - builds:/app/builds
+    working_dir: /app
+volumes:
+  config: {}
+  builds: {}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>backend &#8212; Sudoku  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="backend">
+<h1>backend<a class="headerlink" href="#backend" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="manage.html">manage module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="manage.html#manage.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="src.html">src package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="src.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src.html#module-src.asgi">src.asgi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src.html#module-src.settings">src.settings module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src.html#module-src.urls">src.urls module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src.html#module-src.wsgi">src.wsgi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="src.html#module-src">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sudoku.html">sudoku package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html">sudoku.migrations package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0001_initial">sudoku.migrations.0001_initial module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0002_alter_boards_user">sudoku.migrations.0002_alter_boards_user module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0003_rename_token_users_email">sudoku.migrations.0003_rename_token_users_email module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0004_alter_users_pwd">sudoku.migrations.0004_alter_users_pwd module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0005_alter_boards_isfinished">sudoku.migrations.0005_alter_boards_isfinished module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0006_alter_boards_answer_alter_boards_state">sudoku.migrations.0006_alter_boards_answer_alter_boards_state module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0007_boards_initial">sudoku.migrations.0007_boards_initial module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.admin">sudoku.admin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.apps">sudoku.apps module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.apps.SudokuConfig"><code class="docutils literal notranslate"><span class="pre">SudokuConfig</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.apps.SudokuConfig.default_auto_field"><code class="docutils literal notranslate"><span class="pre">SudokuConfig.default_auto_field</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.apps.SudokuConfig.name"><code class="docutils literal notranslate"><span class="pre">SudokuConfig.name</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.models">sudoku.models module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.models.Boards"><code class="docutils literal notranslate"><span class="pre">Boards</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.DoesNotExist"><code class="docutils literal notranslate"><span class="pre">Boards.DoesNotExist</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.MultipleObjectsReturned"><code class="docutils literal notranslate"><span class="pre">Boards.MultipleObjectsReturned</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.answer"><code class="docutils literal notranslate"><span class="pre">Boards.answer</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.difficulty"><code class="docutils literal notranslate"><span class="pre">Boards.difficulty</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.id"><code class="docutils literal notranslate"><span class="pre">Boards.id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.initial"><code class="docutils literal notranslate"><span class="pre">Boards.initial</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.isFinished"><code class="docutils literal notranslate"><span class="pre">Boards.isFinished</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.objects"><code class="docutils literal notranslate"><span class="pre">Boards.objects</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.state"><code class="docutils literal notranslate"><span class="pre">Boards.state</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.style"><code class="docutils literal notranslate"><span class="pre">Boards.style</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Boards.user"><code class="docutils literal notranslate"><span class="pre">Boards.user</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.models.Users"><code class="docutils literal notranslate"><span class="pre">Users</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Users.DoesNotExist"><code class="docutils literal notranslate"><span class="pre">Users.DoesNotExist</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Users.MultipleObjectsReturned"><code class="docutils literal notranslate"><span class="pre">Users.MultipleObjectsReturned</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Users.email"><code class="docutils literal notranslate"><span class="pre">Users.email</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Users.id"><code class="docutils literal notranslate"><span class="pre">Users.id</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Users.objects"><code class="docutils literal notranslate"><span class="pre">Users.objects</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.models.Users.pwd"><code class="docutils literal notranslate"><span class="pre">Users.pwd</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.serializers">sudoku.serializers module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.serializers.BoardSerializer"><code class="docutils literal notranslate"><span class="pre">BoardSerializer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.serializers.BoardSerializer.Meta"><code class="docutils literal notranslate"><span class="pre">BoardSerializer.Meta</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.serializers.UsersSerializer"><code class="docutils literal notranslate"><span class="pre">UsersSerializer</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.serializers.UsersSerializer.Meta"><code class="docutils literal notranslate"><span class="pre">UsersSerializer.Meta</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.serializers.UsersSerializer.create"><code class="docutils literal notranslate"><span class="pre">UsersSerializer.create()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.sudoku">sudoku.sudoku module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.sudoku.KillerSudoku"><code class="docutils literal notranslate"><span class="pre">KillerSudoku</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.sudoku.KillerSudoku.sudoku_status"><code class="docutils literal notranslate"><span class="pre">KillerSudoku.sudoku_status()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.sudoku.Sudoku"><code class="docutils literal notranslate"><span class="pre">Sudoku</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.sudoku.Sudoku.solve_sudoku"><code class="docutils literal notranslate"><span class="pre">Sudoku.solve_sudoku()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.sudoku.Sudoku.sudoku_status"><code class="docutils literal notranslate"><span class="pre">Sudoku.sudoku_status()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.tests">sudoku.tests module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.tests.BoardSerializerTest"><code class="docutils literal notranslate"><span class="pre">BoardSerializerTest</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.BoardSerializerTest.setUp"><code class="docutils literal notranslate"><span class="pre">BoardSerializerTest.setUp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.BoardSerializerTest.test_serializer"><code class="docutils literal notranslate"><span class="pre">BoardSerializerTest.test_serializer()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_cage_composition"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_cage_composition()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_cage_sum_integrity"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_cage_sum_integrity()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_difficulty_setting_initialization"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_difficulty_setting_initialization()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_generate_killer_sudoku"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_generate_killer_sudoku()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_is_cage_valid"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_is_cage_valid()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_init"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_killer_sudoku_init()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_solution"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_killer_sudoku_solution()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_status"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_killer_sudoku_status()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_rules_enforcement_within_cages"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_rules_enforcement_within_cages()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_serialization"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_serialization()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_solve_killer_sudoku"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_solve_killer_sudoku()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.KillerSudokuAlgoTests.test_status_over_time"><code class="docutils literal notranslate"><span class="pre">KillerSudokuAlgoTests.test_status_over_time()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_board_initialization_easy"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_board_initialization_easy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_board_initialization_hard"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_board_initialization_hard()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_board_initialization_med"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_board_initialization_med()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_difficulty_setting_initialization"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_difficulty_setting_initialization()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_edge_case_solve"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_edge_case_solve()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_generated_board_solution_validity"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_generated_board_solution_validity()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_imposible_board"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_imposible_board()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_solve_sudoku"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_solve_sudoku()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_status_edge_case"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_status_edge_case()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_sudoku_status"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_sudoku_status()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.SudokuAlgoTests.test_valid_board_solution"><code class="docutils literal notranslate"><span class="pre">SudokuAlgoTests.test_valid_board_solution()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.tests.UserModelTests"><code class="docutils literal notranslate"><span class="pre">UserModelTests</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UserModelTests.test_add_single_user"><code class="docutils literal notranslate"><span class="pre">UserModelTests.test_add_single_user()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UserModelTests.test_add_two_users"><code class="docutils literal notranslate"><span class="pre">UserModelTests.test_add_two_users()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UserModelTests.test_delete_single_user"><code class="docutils literal notranslate"><span class="pre">UserModelTests.test_delete_single_user()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UserModelTests.test_modify_user_email"><code class="docutils literal notranslate"><span class="pre">UserModelTests.test_modify_user_email()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UserModelTests.test_modify_user_password"><code class="docutils literal notranslate"><span class="pre">UserModelTests.test_modify_user_password()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.tests.UsersSerializerTest"><code class="docutils literal notranslate"><span class="pre">UsersSerializerTest</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UsersSerializerTest.setUp"><code class="docutils literal notranslate"><span class="pre">UsersSerializerTest.setUp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.tests.UsersSerializerTest.test_serializer"><code class="docutils literal notranslate"><span class="pre">UsersSerializerTest.test_serializer()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.urls">sudoku.urls module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku.views">sudoku.views module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.BoardView"><code class="docutils literal notranslate"><span class="pre">BoardView</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.BoardView.serializer_class"><code class="docutils literal notranslate"><span class="pre">BoardView.serializer_class</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView"><code class="docutils literal notranslate"><span class="pre">UsersView</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.basename"><code class="docutils literal notranslate"><span class="pre">UsersView.basename</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.description"><code class="docutils literal notranslate"><span class="pre">UsersView.description</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.detail"><code class="docutils literal notranslate"><span class="pre">UsersView.detail</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.name"><code class="docutils literal notranslate"><span class="pre">UsersView.name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.queryset"><code class="docutils literal notranslate"><span class="pre">UsersView.queryset</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.serializer_class"><code class="docutils literal notranslate"><span class="pre">UsersView.serializer_class</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.html#sudoku.views.UsersView.suffix"><code class="docutils literal notranslate"><span class="pre">UsersView.suffix</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.choose_saved_game"><code class="docutils literal notranslate"><span class="pre">choose_saved_game()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.get_game_by_difficulty"><code class="docutils literal notranslate"><span class="pre">get_game_by_difficulty()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.index"><code class="docutils literal notranslate"><span class="pre">index()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.load_saved_game"><code class="docutils literal notranslate"><span class="pre">load_saved_game()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.save_game_state"><code class="docutils literal notranslate"><span class="pre">save_game_state()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.signin_view"><code class="docutils literal notranslate"><span class="pre">signin_view()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.html#sudoku.views.signup_view"><code class="docutils literal notranslate"><span class="pre">signup_view()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.html#module-sudoku">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Sudoku</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Team 10.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/modules.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

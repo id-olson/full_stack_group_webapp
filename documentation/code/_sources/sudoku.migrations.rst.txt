@@ -1,0 +1,69 @@
+sudoku.migrations package
+=========================
+
+Submodules
+----------
+
+sudoku.migrations.0001\_initial module
+--------------------------------------
+
+.. automodule:: sudoku.migrations.0001_initial
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.migrations.0002\_alter\_boards\_user module
+--------------------------------------------------
+
+.. automodule:: sudoku.migrations.0002_alter_boards_user
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.migrations.0003\_rename\_token\_users\_email module
+----------------------------------------------------------
+
+.. automodule:: sudoku.migrations.0003_rename_token_users_email
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.migrations.0004\_alter\_users\_pwd module
+------------------------------------------------
+
+.. automodule:: sudoku.migrations.0004_alter_users_pwd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.migrations.0005\_alter\_boards\_isfinished module
+--------------------------------------------------------
+
+.. automodule:: sudoku.migrations.0005_alter_boards_isfinished
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.migrations.0006\_alter\_boards\_answer\_alter\_boards\_state module
+--------------------------------------------------------------------------
+
+.. automodule:: sudoku.migrations.0006_alter_boards_answer_alter_boards_state
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+sudoku.migrations.0007\_boards\_initial module
+----------------------------------------------
+
+.. automodule:: sudoku.migrations.0007_boards_initial
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: sudoku.migrations
+   :members:
+   :undoc-members:
+   :show-inheritance:

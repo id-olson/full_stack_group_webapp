@@ -1,0 +1,1 @@
+docker compose -f runner.yml run gitlab-runner exec shell $1

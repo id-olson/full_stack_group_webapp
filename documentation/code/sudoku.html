@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>sudoku package &#8212; Sudoku  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="sudoku-package">
+<h1>sudoku package<a class="headerlink" href="#sudoku-package" title="Link to this heading">¶</a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sudoku.migrations.html">sudoku.migrations package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0001_initial">sudoku.migrations.0001_initial module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0001_initial.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0001_initial.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0001_initial.Migration.initial"><code class="docutils literal notranslate"><span class="pre">Migration.initial</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0001_initial.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0002_alter_boards_user">sudoku.migrations.0002_alter_boards_user module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0002_alter_boards_user.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0002_alter_boards_user.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0002_alter_boards_user.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0003_rename_token_users_email">sudoku.migrations.0003_rename_token_users_email module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0003_rename_token_users_email.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0003_rename_token_users_email.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0003_rename_token_users_email.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0004_alter_users_pwd">sudoku.migrations.0004_alter_users_pwd module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0004_alter_users_pwd.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0004_alter_users_pwd.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0004_alter_users_pwd.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0005_alter_boards_isfinished">sudoku.migrations.0005_alter_boards_isfinished module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0005_alter_boards_isfinished.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0005_alter_boards_isfinished.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0005_alter_boards_isfinished.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0006_alter_boards_answer_alter_boards_state">sudoku.migrations.0006_alter_boards_answer_alter_boards_state module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0006_alter_boards_answer_alter_boards_state.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0006_alter_boards_answer_alter_boards_state.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0006_alter_boards_answer_alter_boards_state.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations.0007_boards_initial">sudoku.migrations.0007_boards_initial module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0007_boards_initial.Migration"><code class="docutils literal notranslate"><span class="pre">Migration</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0007_boards_initial.Migration.dependencies"><code class="docutils literal notranslate"><span class="pre">Migration.dependencies</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="sudoku.migrations.html#sudoku.migrations.0007_boards_initial.Migration.operations"><code class="docutils literal notranslate"><span class="pre">Migration.operations</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sudoku.migrations.html#module-sudoku.migrations">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-sudoku.admin">
+<span id="sudoku-admin-module"></span><h2>sudoku.admin module<a class="headerlink" href="#module-sudoku.admin" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-sudoku.apps">
+<span id="sudoku-apps-module"></span><h2>sudoku.apps module<a class="headerlink" href="#module-sudoku.apps" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.apps.SudokuConfig">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.apps.</span></span><span class="sig-name descname"><span class="pre">SudokuConfig</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">app_module</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.apps.SudokuConfig" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">AppConfig</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.apps.SudokuConfig.default_auto_field">
+<span class="sig-name descname"><span class="pre">default_auto_field</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'django.db.models.BigAutoField'</span></em><a class="headerlink" href="#sudoku.apps.SudokuConfig.default_auto_field" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.apps.SudokuConfig.name">
+<span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'sudoku'</span></em><a class="headerlink" href="#sudoku.apps.SudokuConfig.name" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-sudoku.models">
+<span id="sudoku-models-module"></span><h2>sudoku.models module<a class="headerlink" href="#module-sudoku.models" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.models.Boards">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.models.</span></span><span class="sig-name descname"><span class="pre">Boards</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">state</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">answer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">difficulty</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">style</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isFinished</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.models.Boards" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="sudoku.models.Boards.DoesNotExist">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#sudoku.models.Boards.DoesNotExist" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="sudoku.models.Boards.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#sudoku.models.Boards.MultipleObjectsReturned" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.answer">
+<span class="sig-name descname"><span class="pre">answer</span></span><a class="headerlink" href="#sudoku.models.Boards.answer" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.difficulty">
+<span class="sig-name descname"><span class="pre">difficulty</span></span><a class="headerlink" href="#sudoku.models.Boards.difficulty" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#sudoku.models.Boards.id" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.initial">
+<span class="sig-name descname"><span class="pre">initial</span></span><a class="headerlink" href="#sudoku.models.Boards.initial" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.isFinished">
+<span class="sig-name descname"><span class="pre">isFinished</span></span><a class="headerlink" href="#sudoku.models.Boards.isFinished" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.objects">
+<span class="sig-name descname"><span class="pre">objects</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;django.db.models.manager.Manager</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#sudoku.models.Boards.objects" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.state">
+<span class="sig-name descname"><span class="pre">state</span></span><a class="headerlink" href="#sudoku.models.Boards.state" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.style">
+<span class="sig-name descname"><span class="pre">style</span></span><a class="headerlink" href="#sudoku.models.Boards.style" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Boards.user">
+<span class="sig-name descname"><span class="pre">user</span></span><a class="headerlink" href="#sudoku.models.Boards.user" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.models.Users">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.models.</span></span><span class="sig-name descname"><span class="pre">Users</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pwd</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.models.Users" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="sudoku.models.Users.DoesNotExist">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#sudoku.models.Users.DoesNotExist" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="sudoku.models.Users.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#sudoku.models.Users.MultipleObjectsReturned" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Users.email">
+<span class="sig-name descname"><span class="pre">email</span></span><a class="headerlink" href="#sudoku.models.Users.email" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Users.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#sudoku.models.Users.id" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Users.objects">
+<span class="sig-name descname"><span class="pre">objects</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;django.db.models.manager.Manager</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#sudoku.models.Users.objects" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.models.Users.pwd">
+<span class="sig-name descname"><span class="pre">pwd</span></span><a class="headerlink" href="#sudoku.models.Users.pwd" title="Link to this definition">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-sudoku.serializers">
+<span id="sudoku-serializers-module"></span><h2>sudoku.serializers module<a class="headerlink" href="#module-sudoku.serializers" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.serializers.BoardSerializer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.serializers.</span></span><span class="sig-name descname"><span class="pre">BoardSerializer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.serializers.BoardSerializer" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ModelSerializer</span></code></p>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.serializers.BoardSerializer.Meta">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Meta</span></span><a class="headerlink" href="#sudoku.serializers.BoardSerializer.Meta" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.serializers.BoardSerializer.Meta.fields">
+<span class="sig-name descname"><span class="pre">fields</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['id',</span> <span class="pre">'state',</span> <span class="pre">'answer',</span> <span class="pre">'initial',</span> <span class="pre">'difficulty',</span> <span class="pre">'style',</span> <span class="pre">'user',</span> <span class="pre">'isFinished']</span></em><a class="headerlink" href="#sudoku.serializers.BoardSerializer.Meta.fields" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.serializers.BoardSerializer.Meta.model">
+<span class="sig-name descname"><span class="pre">model</span></span><a class="headerlink" href="#sudoku.serializers.BoardSerializer.Meta.model" title="Link to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#sudoku.models.Boards" title="sudoku.models.Boards"><code class="xref py py-class docutils literal notranslate"><span class="pre">Boards</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.serializers.UsersSerializer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.serializers.</span></span><span class="sig-name descname"><span class="pre">UsersSerializer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.serializers.UsersSerializer" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ModelSerializer</span></code></p>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.serializers.UsersSerializer.Meta">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Meta</span></span><a class="headerlink" href="#sudoku.serializers.UsersSerializer.Meta" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.serializers.UsersSerializer.Meta.fields">
+<span class="sig-name descname"><span class="pre">fields</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['id',</span> <span class="pre">'pwd',</span> <span class="pre">'email']</span></em><a class="headerlink" href="#sudoku.serializers.UsersSerializer.Meta.fields" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.serializers.UsersSerializer.Meta.model">
+<span class="sig-name descname"><span class="pre">model</span></span><a class="headerlink" href="#sudoku.serializers.UsersSerializer.Meta.model" title="Link to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#sudoku.models.Users" title="sudoku.models.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.serializers.UsersSerializer.create">
+<span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">validated_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.serializers.UsersSerializer.create" title="Link to this definition">¶</a></dt>
+<dd><p>We have a bit of extra checking around this in order to provide
+descriptive messages when something goes wrong, but this method is
+essentially just:</p>
+<blockquote>
+<div><p>return ExampleModel.objects.create(<a href="#id1"><span class="problematic" id="id2">**</span></a>validated_data)</p>
+</div></blockquote>
+<p>If there are many to many fields present on the instance then they
+cannot be set until the model is instantiated, in which case the
+implementation is like so:</p>
+<blockquote>
+<div><p>example_relationship = validated_data.pop(‘example_relationship’)
+instance = ExampleModel.objects.create(<a href="#id3"><span class="problematic" id="id4">**</span></a>validated_data)
+instance.example_relationship = example_relationship
+return instance</p>
+</div></blockquote>
+<p>The default implementation also does not handle nested relationships.
+If you want to support writable nested relationships you’ll need
+to write an explicit <cite>.create()</cite> method.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-sudoku.sudoku">
+<span id="sudoku-sudoku-module"></span><h2>sudoku.sudoku module<a class="headerlink" href="#module-sudoku.sudoku" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.sudoku.KillerSudoku">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.sudoku.</span></span><span class="sig-name descname"><span class="pre">KillerSudoku</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">difficulty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Medium'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.sudoku.KillerSudoku" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#sudoku.sudoku.Sudoku" title="sudoku.sudoku.Sudoku"><code class="xref py py-class docutils literal notranslate"><span class="pre">Sudoku</span></code></a></p>
+<p>A class representing a killer sudoku puzzle variant</p>
+<dl class="simple">
+<dt>Attributes:</dt><dd><p>normal_sudoku: An instance of regular sudoku. Used for board generation.
+empty_board (list): A 2D list representing the Sudoku board to be presented to user.
+difficulty (str): The difficulty level of the Sudoku puzzle. (Easy, Medium, Hard)
+cages (dict): Contains all the cages. Their sum and the cells pertaining to that sum.
+solved_board (list): Contains all the answers to the board.</p>
+</dd>
+<dt>Methods:</dt><dd><p>__init__(self, difficulty=”Medium”): Initializes a Killer Sudoku object
+_is_cage_valid(self): Checks the validity of the cages and checks their sum.
+solve_killer_sudoku(self): Fills the board up with answers.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.sudoku.KillerSudoku.sudoku_status">
+<span class="sig-name descname"><span class="pre">sudoku_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.sudoku.KillerSudoku.sudoku_status" title="Link to this definition">¶</a></dt>
+<dd><p>Returns the completion status of the Killer Sudoku Puzzle.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>float: The completion percentage of the Sudoku puzzle.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.sudoku.Sudoku">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.sudoku.</span></span><span class="sig-name descname"><span class="pre">Sudoku</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">difficulty</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Medium'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.sudoku.Sudoku" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class representing a Sudoku puzzle.</p>
+<dl class="simple">
+<dt>Attributes:</dt><dd><p>DIFFICULTY (dict): A dictionary mapping difficulty levels to the number of cells to remove.
+board (list): A 2D list representing the Sudoku board.
+difficulty (str): The difficulty level of the Sudoku puzzle.</p>
+</dd>
+<dt>Methods:</dt><dd><p>__init__(self, difficulty=”Medium”): Initializes a Sudoku object
+sudoku_status(self): Checks the status of the Sudoku puzzle (complete or incomplete).
+solve_sudoku(self): Solves the Sudoku puzzle using backtracking.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.sudoku.Sudoku.solve_sudoku">
+<span class="sig-name descname"><span class="pre">solve_sudoku</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.sudoku.Sudoku.solve_sudoku" title="Link to this definition">¶</a></dt>
+<dd><p>Solves the generated Sudoku puzzle using backtracking.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True if the puzzle is solvable, False otherwise.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.sudoku.Sudoku.sudoku_status">
+<span class="sig-name descname"><span class="pre">sudoku_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.sudoku.Sudoku.sudoku_status" title="Link to this definition">¶</a></dt>
+<dd><p>Returns the completion percentage of the Sudoku Puzzle.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>float: The completion percentage of the Sudoku puzzle.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-sudoku.tests">
+<span id="sudoku-tests-module"></span><h2>sudoku.tests module<a class="headerlink" href="#module-sudoku.tests" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.tests.BoardSerializerTest">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.tests.</span></span><span class="sig-name descname"><span class="pre">BoardSerializerTest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.BoardSerializerTest" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">APITestCase</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.BoardSerializerTest.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.BoardSerializerTest.setUp" title="Link to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.BoardSerializerTest.test_serializer">
+<span class="sig-name descname"><span class="pre">test_serializer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.BoardSerializerTest.test_serializer" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.tests.</span></span><span class="sig-name descname"><span class="pre">KillerSudokuAlgoTests</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_cage_composition">
+<span class="sig-name descname"><span class="pre">test_cage_composition</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_cage_composition" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_cage_sum_integrity">
+<span class="sig-name descname"><span class="pre">test_cage_sum_integrity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_cage_sum_integrity" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_difficulty_setting_initialization">
+<span class="sig-name descname"><span class="pre">test_difficulty_setting_initialization</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_difficulty_setting_initialization" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_generate_killer_sudoku">
+<span class="sig-name descname"><span class="pre">test_generate_killer_sudoku</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_generate_killer_sudoku" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_is_cage_valid">
+<span class="sig-name descname"><span class="pre">test_is_cage_valid</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_is_cage_valid" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_init">
+<span class="sig-name descname"><span class="pre">test_killer_sudoku_init</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_init" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_solution">
+<span class="sig-name descname"><span class="pre">test_killer_sudoku_solution</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_solution" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_status">
+<span class="sig-name descname"><span class="pre">test_killer_sudoku_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_killer_sudoku_status" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_rules_enforcement_within_cages">
+<span class="sig-name descname"><span class="pre">test_rules_enforcement_within_cages</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_rules_enforcement_within_cages" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_serialization">
+<span class="sig-name descname"><span class="pre">test_serialization</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_serialization" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_solve_killer_sudoku">
+<span class="sig-name descname"><span class="pre">test_solve_killer_sudoku</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_solve_killer_sudoku" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.KillerSudokuAlgoTests.test_status_over_time">
+<span class="sig-name descname"><span class="pre">test_status_over_time</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.KillerSudokuAlgoTests.test_status_over_time" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.tests.</span></span><span class="sig-name descname"><span class="pre">SudokuAlgoTests</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_board_initialization_easy">
+<span class="sig-name descname"><span class="pre">test_board_initialization_easy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_board_initialization_easy" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_board_initialization_hard">
+<span class="sig-name descname"><span class="pre">test_board_initialization_hard</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_board_initialization_hard" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_board_initialization_med">
+<span class="sig-name descname"><span class="pre">test_board_initialization_med</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_board_initialization_med" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_difficulty_setting_initialization">
+<span class="sig-name descname"><span class="pre">test_difficulty_setting_initialization</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_difficulty_setting_initialization" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_edge_case_solve">
+<span class="sig-name descname"><span class="pre">test_edge_case_solve</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_edge_case_solve" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_generated_board_solution_validity">
+<span class="sig-name descname"><span class="pre">test_generated_board_solution_validity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_generated_board_solution_validity" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_imposible_board">
+<span class="sig-name descname"><span class="pre">test_imposible_board</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_imposible_board" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_solve_sudoku">
+<span class="sig-name descname"><span class="pre">test_solve_sudoku</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_solve_sudoku" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_status_edge_case">
+<span class="sig-name descname"><span class="pre">test_status_edge_case</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_status_edge_case" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_sudoku_status">
+<span class="sig-name descname"><span class="pre">test_sudoku_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_sudoku_status" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.SudokuAlgoTests.test_valid_board_solution">
+<span class="sig-name descname"><span class="pre">test_valid_board_solution</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.SudokuAlgoTests.test_valid_board_solution" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.tests.UserModelTests">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.tests.</span></span><span class="sig-name descname"><span class="pre">UserModelTests</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UserModelTests" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UserModelTests.test_add_single_user">
+<span class="sig-name descname"><span class="pre">test_add_single_user</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UserModelTests.test_add_single_user" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UserModelTests.test_add_two_users">
+<span class="sig-name descname"><span class="pre">test_add_two_users</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UserModelTests.test_add_two_users" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UserModelTests.test_delete_single_user">
+<span class="sig-name descname"><span class="pre">test_delete_single_user</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UserModelTests.test_delete_single_user" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UserModelTests.test_modify_user_email">
+<span class="sig-name descname"><span class="pre">test_modify_user_email</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UserModelTests.test_modify_user_email" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UserModelTests.test_modify_user_password">
+<span class="sig-name descname"><span class="pre">test_modify_user_password</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UserModelTests.test_modify_user_password" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.tests.UsersSerializerTest">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.tests.</span></span><span class="sig-name descname"><span class="pre">UsersSerializerTest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UsersSerializerTest" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">APITestCase</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UsersSerializerTest.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UsersSerializerTest.setUp" title="Link to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sudoku.tests.UsersSerializerTest.test_serializer">
+<span class="sig-name descname"><span class="pre">test_serializer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.tests.UsersSerializerTest.test_serializer" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-sudoku.urls">
+<span id="sudoku-urls-module"></span><h2>sudoku.urls module<a class="headerlink" href="#module-sudoku.urls" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-sudoku.views">
+<span id="sudoku-views-module"></span><h2>sudoku.views module<a class="headerlink" href="#module-sudoku.views" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.views.BoardView">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">BoardView</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.BoardView" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ModelViewSet</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.BoardView.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#sudoku.views.BoardView.serializer_class" title="Link to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#sudoku.serializers.BoardSerializer" title="sudoku.serializers.BoardSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">BoardSerializer</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="sudoku.views.UsersView">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">UsersView</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.UsersView" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ModelViewSet</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.basename">
+<span class="sig-name descname"><span class="pre">basename</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#sudoku.views.UsersView.basename" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.description">
+<span class="sig-name descname"><span class="pre">description</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#sudoku.views.UsersView.description" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.detail">
+<span class="sig-name descname"><span class="pre">detail</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#sudoku.views.UsersView.detail" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.name">
+<span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#sudoku.views.UsersView.name" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><a class="headerlink" href="#sudoku.views.UsersView.queryset" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#sudoku.views.UsersView.serializer_class" title="Link to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#sudoku.serializers.UsersSerializer" title="sudoku.serializers.UsersSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">UsersSerializer</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="sudoku.views.UsersView.suffix">
+<span class="sig-name descname"><span class="pre">suffix</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#sudoku.views.UsersView.suffix" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.choose_saved_game">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">choose_saved_game</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.choose_saved_game" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.get_game_by_difficulty">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">get_game_by_difficulty</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.get_game_by_difficulty" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.index">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.index" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.load_saved_game">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">load_saved_game</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.load_saved_game" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.save_game_state">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">save_game_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.save_game_state" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.signin_view">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">signin_view</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.signin_view" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="sudoku.views.signup_view">
+<span class="sig-prename descclassname"><span class="pre">sudoku.views.</span></span><span class="sig-name descname"><span class="pre">signup_view</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sudoku.views.signup_view" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-sudoku">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-sudoku" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Sudoku</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Team 10.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/sudoku.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
