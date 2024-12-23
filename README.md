@@ -1,3 +1,6 @@
+### Details
+This repository is from a 6-person group project in Software Engineering, which I took in the spring of my junior year (2024). We developed a sudoku webapp, which created new puzzles, saved changes to them, checked them for completion, and allowed a user to restore saved in-progress puzzles. It was fully containerized in Docker and fully pipelined with coverage testing in GitLab. I mainly worked on designing and implementing the database schema for Tables and Players. This began by drawing a schema, then defining it in SQL, and finally implementing Django for the tables. I also helped debug integration issues with the features we developed. The project's container accesses a UW Computer Systems Lab domain that is no longer active, but this repository still includes the raw code itself, as well as a comprehensive display of our group's commitment to agile principles.
+
 # Sudoku by Logic Luminaries
 
 [![pipeline](https://git.doit.wisc.edu/cdis/cs/courses/cs506/sp2024/team/mondaywednesdaylecture/T_10/logicluminaries/badges/main/pipeline.svg)](https://git.doit.wisc.edu/cdis/cs/courses/cs506/sp2024/team/mondaywednesdaylecture/T_10/logicluminaries/-/pipelines)
@@ -9,7 +12,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-b129b4.svg?style=flat-square)](https://prettier.io/)
 
-![Logo](./documentation/images/LLLogo.jpg){width=50%}
+![Logo](./documentation/images/LLLogo.jpg)
 
 ## Requirements and Specification Document
 
